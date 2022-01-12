@@ -1,0 +1,14 @@
+  //整数
+byte：とても小さな整数、　例：byte glasses;//所持する眼鏡の数
+short:小さな整数、　例：short age; //年齢
+int:普通の整数、　例：int salary;//給与金額
+long：大きな整数、　例:long worldPeople;//世界の人口
+  //少数
+float:少しあいまいでもよい小数、　例：float weight;//体重
+double:普通の小数、　例：double pi;//円周率
+  //真偽値
+boolean:trueかfalse、　例：boolean isError;//エラーか否か
+  //文字
+char:１つの文字、　例：char initial;//イニシャル１文字
+  //文字列
+String:文字の並び、　例：String name;//自分の名前
