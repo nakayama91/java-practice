@@ -12,3 +12,28 @@ boolean:trueかfalse、　例：boolean isError;//エラーか否か
 char:１つの文字、　例：char initial;//イニシャル１文字
   //文字列
 String:文字の並び、　例：String name;//自分の名前
+
+  //命令実行分
+System.out.print();  //改行せずに画面に文字を表示
+int m = Math.max(1, 2);   //大きいほうの数値を代入する命令
+int n = Integer.parseInt(1);   //文字列1を数値に変換する
+int r = new java.util.Random().nextInt(10);   //0~9のランダムな数を生成する命令
+String s = new java.util.Scanner(System.in).nextLine();   //キーボードから１行の文字列を受け付ける
+int input = new java.util.Scanner(System.in).nextInt();   //キーボードから1つの整数の入力を受け付ける
+
+  //練習問題
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("ようこそ占いの館へ");
+		System.out.println("あなたの名前を入力してください");
+		String name = new java.util.Scanner(System.in).nextLine();
+		System.out.println("あなたの年齢を入力してください");
+		String ageString = new java.util.Scanner(System.in).nextLine();
+		int age = Integer.parseInt(ageString);
+		int fortune = new java.util.Random().nextInt(4);
+		fortune++;
+		System.out.println("占いの結果が出ました！");
+		System.out.println(age + "歳の" + name + "さん、" + "あなたの運気番号は" + fortune + "です");
+		System.out.println("1:大吉 2:中吉 3:吉 4:凶");
+	}
+}
