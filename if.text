@@ -1,3 +1,4 @@
+  //天気による行動の変化をJavaで表す
 public class Main{
   public static void main(String[] args) {
     boolean tenki = true;
@@ -9,3 +10,14 @@ public class Main{
     }
   }
  }
+
+  //トイレの空きを待つ繰り返し処理 
+public class main {
+  public static void main(String[] args) {
+    boolean doorClose = true;
+    while (doorClose) == ture; {
+      System.out.println("ノックする");
+      System.out.println("1分待つ");
+    }
+  }
+}
