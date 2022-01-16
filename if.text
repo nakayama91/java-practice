@@ -63,7 +63,7 @@ public class Main {
             int num = new java.util.Scanner(System.in).nextInt();
             if (num == ans) {
                 System.out.println("アタリ！");
-                break;
+                break;	//当たったら終了
             } else {
                 System.out.println("違います");
             }
