@@ -1,0 +1,8 @@
+  //1　int型の値を4個まとめて格納できる配列points
+int[] points = new int[4];
+  //2　double型の値を５つまとめて格納できる配列weights
+double[] weights = new double[5];
+  //3 boolean型の値を３つまとめて格納できる配列answer
+boolean[] answers = new boolean[3];
+  //4  String型の値を３つまとめて格納できる配列names
+String[] names = new String[3];
