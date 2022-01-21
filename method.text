@@ -2,8 +2,7 @@
 public class Main {
   public static void main(String[] args) {
     introduceOneself();   //introduceOneselfメソッドを呼び出す
-  }
-  
+  }  
   public static void introduceOneself() {
     String name = "Minato";
     int age = 22;
