@@ -1,0 +1,1 @@
+bublic interface x { void a(); }
